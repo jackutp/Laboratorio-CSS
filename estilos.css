@@ -1,0 +1,65 @@
+#estilo1 {
+    font-weight: bold;
+    margin-top: 25px;
+}
+body {
+    background-image: url('https://img.freepik.com/fotos-premium/composicion-juguetes-sobre-fondo-naranja-espacio-texto-centro-ninos_321890-80.jpg?w=2000'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta real de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen en su lugar mientras te desplazas por la página */
+}
+
+/* Estilo para las categorías */
+.categorias {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para las columnas de categorías */
+.categoria {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    margin: -20px;
+}
+
+/* Estilo para la primera columna */
+.columna1 {
+    flex: 1;
+    padding: 10px;
+}
+
+
+/* Estilo para la segunda columna */
+.columna2 {
+    flex: 1;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 300;
+}
+ul.mimenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(110, 185, 247);
+    overflow: hidden;
+}
+ul.mimenu li {
+    float: right;
+}
+ul.mimenu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.mimenu li a:hover {
+    background-color: rgb(134, 106, 160);
+}
